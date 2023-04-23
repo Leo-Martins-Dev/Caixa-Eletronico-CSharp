@@ -81,7 +81,7 @@ public class titularCartao
         void Deposito(titularCartao UsuarioAtual)
         {
             Console.WriteLine("Quanto deseja depositar?");
-            double Deposito = Double.Parse(Console.ReadLine());
+            double Deposito = Double.Parse(Console.ReadLine()!);
             UsuarioAtual.SetSaldo(UsuarioAtual.GetSaldo() + Deposito);
             Console.WriteLine("Obrigado por realizar o depósito conosco. Seu novo saldo é: " + UsuarioAtual.GetSaldo());
         }
@@ -89,7 +89,7 @@ public class titularCartao
         void Resgate(titularCartao UsuarioAtual)
         {
             Console.Write("Informe o valor da quantia que deseja resgatar: ");
-            double Resgate = Double.Parse(Console.ReadLine());
+            double Resgate = Double.Parse(Console.ReadLine()!);
             if (UsuarioAtual.GetSaldo() < Resgate)
             {
                 Console.WriteLine("Saldo insulficiente, saldo atual: " + UsuarioAtual.GetSaldo());
@@ -124,9 +124,9 @@ public class titularCartao
         {
             try
             {
-                Cartao = Console.ReadLine();
+                Cartao = Console.ReadLine()!;
 
-                UsuarioAtual = titularesCartao.FirstOrDefault(a => a.numCartao == Cartao);
+                UsuarioAtual = titularesCartao.FirstOrDefault(a => a.numCartao == Cartao)!;
                 if (UsuarioAtual != null) { break; }
                 else { Console.WriteLine("Cartão não encontrado. Tente novamente"); }
             }
@@ -140,7 +140,7 @@ public class titularCartao
         {
             try
             {
-                userPin = int.Parse(Console.ReadLine());
+                userPin = int.Parse(Console.ReadLine()!);
                 if (UsuarioAtual.GetPin() == userPin) { break; }
                 else { Console.WriteLine("Pin incorreto. Por favor digite o pin correto"); }
             }
@@ -155,7 +155,7 @@ public class titularCartao
             Opcoes();
             try
             {
-                opcao = int.Parse(Console.ReadLine());
+                opcao = int.Parse(Console.ReadLine()!);
             }
             catch { }
             if (opcao == 1)
