@@ -71,8 +71,8 @@ public class titularCartao
     {
         void Opcoes()
         {
-            Console.WriteLine("Por favor escolha uma da opcoes...");
-            Console.WriteLine("1. Deposito");
+            Console.WriteLine("Por favor escolha uma da opções...");
+            Console.WriteLine("1. Depósito");
             Console.WriteLine("2. Resgate");
             Console.WriteLine("3. Mostrar saldo");
             Console.WriteLine("4. Sair");
@@ -80,15 +80,15 @@ public class titularCartao
 
         void Deposito(titularCartao UsuarioAtual)
         {
-            Console.WriteLine("Qual sera a quantia a ser depositada?");
+            Console.WriteLine("Quanto deseja depositar?");
             double Deposito = Double.Parse(Console.ReadLine());
             UsuarioAtual.SetSaldo(UsuarioAtual.GetSaldo() + Deposito);
-            Console.WriteLine("Obrigado por realizar o deposito conosco. Seu novo saldo e:" + UsuarioAtual.GetSaldo());
+            Console.WriteLine("Obrigado por realizar o depósito conosco. Seu novo saldo é: " + UsuarioAtual.GetSaldo());
         }
 
         void Resgate(titularCartao UsuarioAtual)
         {
-            Console.WriteLine("Qual sera a quantia a ser resgatada?");
+            Console.Write("Informe o valor da quantia que deseja resgatar: ");
             double Resgate = Double.Parse(Console.ReadLine());
             if (UsuarioAtual.GetSaldo() < Resgate)
             {
@@ -97,22 +97,26 @@ public class titularCartao
             else
             {
                 UsuarioAtual.SetSaldo(UsuarioAtual.GetSaldo() - Resgate);
-                Console.WriteLine("Resgate concluido, obrigado!");
+                Console.WriteLine("Resgate concluído, obrigado!");
 
             }
         }
 
         void Saldo(titularCartao UsuarioConta)
         {
-            Console.WriteLine("Seu saldo: " + UsuarioConta.GetSaldo());
+            Console.WriteLine($"Obrigado por aguardar {UsuarioConta.GetNome()}, Seu saldo é: {UsuarioConta.GetSaldo()}");
         }
 
         List<titularCartao> titularesCartao = new List<titularCartao>();
-        titularesCartao.Add(new titularCartao("132890389012890", 1234, "Leo", "Martins", 1230.09));
-        titularesCartao.Add(new titularCartao("132890389112890", 1234, "Marcella", "Reis", 120.09));
+        titularesCartao.Add(new titularCartao("5572096890324397", 1234, "Gabriela", "Silva", 4598.31));
+        titularesCartao.Add(new titularCartao("4084007130021262", 1234, "Rafael", "Souza", 210.43));
+        titularesCartao.Add(new titularCartao("5552302721676165", 1234, "Julia", "Pereira", 1023.56));
+        titularesCartao.Add(new titularCartao("4024007190705357", 1234, "Lucas", "Oliveira", 7500.00));
+        titularesCartao.Add(new titularCartao("5299406269141087", 1234, "Mariana", "Santos", 15.75));
+        titularesCartao.Add(new titularCartao("5168756196701991", 1234, "Isabela", "Ferreira", 503.00));
 
-        Console.WriteLine("Bem-vindo ao MazeBank");
-        Console.WriteLine("Por favor insira seu cartao: ");
+        Console.WriteLine("Bem-vindo/a ao MazeBank");
+        Console.Write("Por favor insira seu cartão : ");
         string Cartao = "";
         titularCartao UsuarioAtual;
 
@@ -124,13 +128,13 @@ public class titularCartao
 
                 UsuarioAtual = titularesCartao.FirstOrDefault(a => a.numCartao == Cartao);
                 if (UsuarioAtual != null) { break; }
-                else { Console.WriteLine("Cartao nao encontrado. Tente novamente"); }
+                else { Console.WriteLine("Cartão não encontrado. Tente novamente"); }
             }
-            catch { Console.WriteLine("Cartao nao encontrado. Tente novamente"); }
+            catch { Console.WriteLine("Cartão não encontrado. Tente novamente"); }
 
         }
 
-        Console.WriteLine("Por favor digite o seu pin:");
+        Console.Write("Digite o pin:");
         int userPin = 0;
         while (true)
         {
@@ -144,7 +148,7 @@ public class titularCartao
 
         }
 
-        Console.WriteLine("Bem-vindo " + UsuarioAtual.GetNome() + " :)");
+        Console.WriteLine("Bem-vindo/a " + UsuarioAtual.GetNome() + " :)");
         int opcao = 0;
         do
         {
@@ -177,7 +181,7 @@ public class titularCartao
 
         }
         while (opcao != 4);
-        Console.WriteLine("Obrigado, tenha um bom dia :)");
+        Console.WriteLine("Obrigado, tenha uma boa viagem :)");
     }
 
 
