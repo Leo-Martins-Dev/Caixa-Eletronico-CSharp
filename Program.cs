@@ -115,7 +115,7 @@ public class titularCartao
         titularesCartao.Add(new titularCartao("5299406269141087", 1234, "Mariana", "Santos", 15.75));
         titularesCartao.Add(new titularCartao("5168756196701991", 1234, "Isabela", "Ferreira", 503.00));
 
-        Console.WriteLine("Bem-vindo/a ao MazeBank");
+        Console.WriteLine("Bem-vindo ao MazeBank");
         Console.Write("Por favor insira seu cartão : ");
         string Cartao = "";
         titularCartao UsuarioAtual;
@@ -148,7 +148,7 @@ public class titularCartao
 
         }
 
-        Console.WriteLine("Bem-vindo/a " + UsuarioAtual.GetNome() + " :)");
+        Console.WriteLine("Bem-vindo " + UsuarioAtual.GetNome() + " :)");
         int opcao = 0;
         do
         {
