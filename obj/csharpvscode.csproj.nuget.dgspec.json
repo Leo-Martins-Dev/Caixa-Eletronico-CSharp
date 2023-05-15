@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\csharpvscode\\csharpvscode.csproj": {}
+    "C:\\Users\\New User\\RiderProjects\\Caixa-Eletronico-CSharp\\csharpvscode.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\csharpvscode\\csharpvscode.csproj": {
+    "C:\\Users\\New User\\RiderProjects\\Caixa-Eletronico-CSharp\\csharpvscode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\csharpvscode\\csharpvscode.csproj",
+        "projectUniqueName": "C:\\Users\\New User\\RiderProjects\\Caixa-Eletronico-CSharp\\csharpvscode.csproj",
         "projectName": "csharpvscode",
-        "projectPath": "D:\\Projetos\\csharpvscode\\csharpvscode.csproj",
-        "packagesPath": "C:\\Users\\Leonardo Martins\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\csharpvscode\\obj\\",
+        "projectPath": "C:\\Users\\New User\\RiderProjects\\Caixa-Eletronico-CSharp\\csharpvscode.csproj",
+        "packagesPath": "C:\\Users\\New User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\New User\\RiderProjects\\Caixa-Eletronico-CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Leonardo Martins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\New User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
