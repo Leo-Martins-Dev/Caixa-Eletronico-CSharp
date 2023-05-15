@@ -13,3 +13,18 @@ D:\Projetos\csharpvscode\obj\Debug\net7.0\refint\csharpvscode.dll
 D:\Projetos\csharpvscode\obj\Debug\net7.0\csharpvscode.pdb
 D:\Projetos\csharpvscode\obj\Debug\net7.0\csharpvscode.genruntimeconfig.cache
 D:\Projetos\csharpvscode\obj\Debug\net7.0\ref\csharpvscode.dll
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\bin\Debug\net7.0\csharpvscode.exe
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\bin\Debug\net7.0\csharpvscode.deps.json
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\bin\Debug\net7.0\csharpvscode.runtimeconfig.json
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\bin\Debug\net7.0\csharpvscode.dll
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\bin\Debug\net7.0\csharpvscode.pdb
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.csproj.AssemblyReference.cache
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.AssemblyInfoInputs.cache
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.AssemblyInfo.cs
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.csproj.CoreCompileInputs.cache
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.dll
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\refint\csharpvscode.dll
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.pdb
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.genruntimeconfig.cache
+C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\ref\csharpvscode.dll

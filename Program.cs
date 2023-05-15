@@ -114,6 +114,7 @@ public class TitularCartao
             Console.WriteLine();
             acao.Invoke();
             ExibirProcessando();
+            Console.WriteLine();
         }
 
         void Deposito(TitularCartao usuarioAtual)
