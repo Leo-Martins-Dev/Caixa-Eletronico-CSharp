@@ -28,3 +28,17 @@ C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\refint\
 C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.pdb
 C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.genruntimeconfig.cache
 C:\Users\New User\RiderProjects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\ref\csharpvscode.dll
+C:\Users\Leo\Projects\Caixa-Eletronico-CSharp\bin\Debug\net7.0\csharpvscode.exe
+C:\Users\Leo\Projects\Caixa-Eletronico-CSharp\bin\Debug\net7.0\csharpvscode.deps.json
+C:\Users\Leo\Projects\Caixa-Eletronico-CSharp\bin\Debug\net7.0\csharpvscode.runtimeconfig.json
+C:\Users\Leo\Projects\Caixa-Eletronico-CSharp\bin\Debug\net7.0\csharpvscode.dll
+C:\Users\Leo\Projects\Caixa-Eletronico-CSharp\bin\Debug\net7.0\csharpvscode.pdb
+C:\Users\Leo\Projects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leo\Projects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.AssemblyInfoInputs.cache
+C:\Users\Leo\Projects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.AssemblyInfo.cs
+C:\Users\Leo\Projects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.csproj.CoreCompileInputs.cache
+C:\Users\Leo\Projects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.dll
+C:\Users\Leo\Projects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\refint\csharpvscode.dll
+C:\Users\Leo\Projects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.pdb
+C:\Users\Leo\Projects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\csharpvscode.genruntimeconfig.cache
+C:\Users\Leo\Projects\Caixa-Eletronico-CSharp\obj\Debug\net7.0\ref\csharpvscode.dll

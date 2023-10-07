@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\New User\\RiderProjects\\Caixa-Eletronico-CSharp\\csharpvscode.csproj": {}
+    "C:\\Users\\Leo\\Projects\\Caixa-Eletronico-CSharp\\csharpvscode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\New User\\RiderProjects\\Caixa-Eletronico-CSharp\\csharpvscode.csproj": {
+    "C:\\Users\\Leo\\Projects\\Caixa-Eletronico-CSharp\\csharpvscode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\New User\\RiderProjects\\Caixa-Eletronico-CSharp\\csharpvscode.csproj",
+        "projectUniqueName": "C:\\Users\\Leo\\Projects\\Caixa-Eletronico-CSharp\\csharpvscode.csproj",
         "projectName": "csharpvscode",
-        "projectPath": "C:\\Users\\New User\\RiderProjects\\Caixa-Eletronico-CSharp\\csharpvscode.csproj",
-        "packagesPath": "C:\\Users\\New User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\New User\\RiderProjects\\Caixa-Eletronico-CSharp\\obj\\",
+        "projectPath": "C:\\Users\\Leo\\Projects\\Caixa-Eletronico-CSharp\\csharpvscode.csproj",
+        "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leo\\Projects\\Caixa-Eletronico-CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\New User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Leo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
